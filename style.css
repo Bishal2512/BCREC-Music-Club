@@ -660,9 +660,15 @@ ul.main-menu{
     }
 } 
 
+@media only screen and (max-width: 450px){
+    .first-content, .overlay{
+        height: 130vh;
+    }
+}
+
 @media only screen and (max-width: 400px){
-    .first-content{
-        height: 150vh;
+    .first-content, .overlay{
+        height: 120vh;
     }
 
     .heading-1{
@@ -843,15 +849,27 @@ video{
     }
 } 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
     .second-content{
-        height: 250vh;
+        height: 260vh;
         border-top: 5px solid #5a5cc0;
     }
 
     .second-content .overlay-1{
-        height: 248.6vh;
-        margin-top: -60px;
+        height: 260vh;
+        margin-top: -64px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .second-content{
+        height: 240vh;
+        border-top: 5px solid #5a5cc0;
+    }
+
+    .second-content .overlay-1{
+        height: 240vh;
+        margin-top: -64px;
     }
 }
 
@@ -1079,18 +1097,11 @@ video{
     }
 }
 
-@media screen and (max-width:450px) {
-    .fourth-content{
-        height: 80vh;
-        transform: translateY(0px);
-    }
-}
-
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
     .fourth-content {
         transform: translateY(0px);
         margin-top: -42px;
-        height:120vh;
+        height:90vh;
     }
 
     .heading-5{
@@ -1314,16 +1325,22 @@ video{
 }
 
 @media only screen and (max-width: 450px){
+    
     #img{
         transform: translateX(-65px);
     }
 
     .fifth-content{
         margin-top: 40px;
+        height: 90vh;
+    }
+    
+    .fifth-content .overlay-3{
+        height: 90vh;
     }
 
     .swiper {
-        height: 75vh;
+        height: 65vh;
     }
 
     #p-1{
@@ -1339,7 +1356,7 @@ video{
     }
 
     #p-4 {
-        margin-top: 430px;
+        margin-top: 450px;
     }
 }
 
@@ -1598,6 +1615,22 @@ video{
         transition: 200ms;
         transform: translateY(-90px);
     }
+    
+    .para-7 {
+        margin-top: 200px;
+    }
+    
+    .sixth-content{
+        height: 85vh;
+    }
+    
+    .about-image{
+        width: 300px;
+        height: 180px;
+        transition: 200ms;
+        margin-top: 435px;
+        transform: translateY(-50px);
+    }
 }
 
 @media only screen and (max-width: 400px){
@@ -1605,12 +1638,16 @@ video{
         transition: 200ms;
         transform: translateY(-80px);
     }
+    
+    .para-7 {
+        margin-top: 210px;
+    }
 
     .about-image{
         width: 300px;
         height: 180px;
         transition: 200ms;
-        margin-top: 370px;
+        margin-top: 450px;
     }
 }
 
@@ -1993,21 +2030,7 @@ video{
 @media only screen and (max-width: 450px){
     
     .back-1, .overlay-11{
-        height: 130vh;
-    }
-
-    #demo1{
-        transform: translateY(470px);
-    }
-
-    .countdown-1{
-        transform: translateY(470px);
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .back-1, .overlay-11{
-        height: 180vh;
+        height: 160vh;
     }
 
     .paragraph-1{
@@ -2016,32 +2039,74 @@ video{
 
     #demo1{
         font-size: 50px;
-        transform: translateY(470px);
+        transform: translateY(530px);
     }
 
     .countdown-1{
-        transform: translateY(470px);
+        transform: translateY(530px);
     }
 
     .day-1, .hour-1, .min-1, .sec-1{
-        font-size: 16px;
+        font-size: 13px;
         /* padding: 0; */
     }
 
     .day-1{
-        padding-left: 40px;
+        padding-left: 15px;
     }
 
     .hour-1{
-        padding-left: 40px;
+        padding-left: 60px;
     }
 
     .min-1{
-        padding-left: 45px;
+        padding-left: 50px;
     }
 
     .sec-1{
-        padding-right: 25px;
+        padding-left: -30px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .back-1, .overlay-11{
+        height: 160vh;
+    }
+
+    .paragraph-1{
+        margin-top: -50px;
+    }
+
+    #demo1{
+        font-size: 50px;
+        transform: translateY(500px);
+    }
+
+    .countdown-1{
+        transform: translateY(500px);
+    }
+
+    .day-1, .hour-1, .min-1, .sec-1{
+        font-size: 13px;
+        /* padding: 0; */
+    }
+
+    .day-1{
+        padding-left: 25px;
+    }
+
+    .hour-1{
+        padding-left: 60px;
+    }
+
+    .min-1{
+        padding-left: 50px;
+    }
+
+    .sec-1{
+        padding-left: -30px;
+        padding-right: 15px;
     }
 }
 
@@ -2194,21 +2259,7 @@ video{
 @media only screen and (max-width: 450px){
     
     .back-2, .overlay-12{
-        height: 120vh;
-    }
-
-    #demo2{
-        transform: translateY(670px);
-    }
-
-    .countdown-2{
-        transform: translateY(670px) translateX(8px);
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .back-2, .overlay-12{
-        height: 140vh;
+        height: 135vh;
     }
 
     .paragraph-2{
@@ -2217,32 +2268,72 @@ video{
 
     #demo2{
         font-size: 50px;
-        transform: translateY(570px);
+        transform: translateY(670px);
     }
 
     .countdown-2{
-        transform: translateY(570px);
+        transform: translateY(670px);
     }
 
     .day-2, .hour-2, .min-2, .sec-2{
-        font-size: 16px;
+        font-size: 13px;
         /* padding: 0; */
     }
 
     .day-2{
-        padding-left: 40px;
+        padding-left: 15px;
     }
 
     .hour-2{
-        padding-left: 40px;
+        padding-left: 60px;
     }
 
     .min-2{
-        padding-left: 45px;
+        padding-left: 50px;
     }
 
     .sec-2{
-        padding-right: 25px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .back-2, .overlay-12{
+        height: 135vh;
+    }
+
+    .paragraph-2{
+        margin-top: 300px;
+    }
+
+    #demo2{
+        font-size: 50px;
+        transform: translateY(670px);
+    }
+
+    .countdown-2{
+        transform: translateY(670px);
+    }
+
+    .day-2, .hour-2, .min-2, .sec-2{
+        font-size: 13px;
+        /* padding: 0; */
+    }
+
+    .day-2{
+        padding-left: 25px;
+    }
+
+    .hour-2{
+        padding-left: 60px;
+    }
+
+    .min-2{
+        padding-left: 50px;
+    }
+
+    .sec-2{
+        padding-right: 15px;
     }
 }
 
@@ -2407,21 +2498,7 @@ video{
 @media only screen and (max-width: 450px){
     
     .back-3, .overlay-13{
-        height: 110vh;
-    }
-
-    #demo3{
-        transform: translateY(570px);
-    }
-
-    .countdown-3{
-        transform: translateY(570px) translateX(8px);
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .back-3, .overlay-13{
-        height: 150vh;
+        height: 135vh;
     }
 
     .paragraph-3{
@@ -2430,32 +2507,74 @@ video{
 
     #demo3{
         font-size: 50px;
-        transform: translateY(570px);
+        transform: translateY(670px);
     }
 
     .countdown-3{
-        transform: translateY(570px);
+        transform: translateY(670px);
     }
 
     .day-3, .hour-3, .min-3, .sec-3{
-        font-size: 16px;
+        font-size: 13px;
         /* padding: 0; */
     }
 
     .day-3{
-        padding-left: 30px;
+        padding-left: 0;
     }
 
     .hour-3{
-        padding-left: 45px;
+        padding-left: 60px;
     }
 
     .min-3{
-        padding-left: 40px;
+        padding-left: 45px;
+        padding-right: 10px;
     }
 
     .sec-3{
-        padding-right: 24px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .back-3, .overlay-13{
+        height: 135vh;
+    }
+
+    .paragraph-3{
+        margin-top: 60px;
+    }
+
+    #demo3{
+        font-size: 50px;
+        transform: translateY(670px);
+    }
+
+    .countdown-3{
+        transform: translateY(670px);
+    }
+
+    .day-3, .hour-3, .min-3, .sec-3{
+        font-size: 13px;
+        /* padding: 0; */
+    }
+
+    .day-3{
+        padding-left: 0;
+    }
+
+    .hour-3{
+        padding-left: 60px;
+    }
+
+    .min-3{
+        padding-left: 45px;
+        padding-right: 10px;
+    }
+
+    .sec-3{
+        padding-right: 0;
     }
 }
 
@@ -2613,21 +2732,44 @@ video{
 @media only screen and (max-width: 450px){
     
     .back-4, .overlay-14{
-        height: 110vh;
+        height: 135vh;
     }
-
+    
     #demo4{
-        transform: translateY(570px);
+        font-size: 50px;
+        transform: translateY(670px);
     }
 
     .countdown-4{
-        transform: translateY(570px);
+        transform: translateY(670px);
+    }
+
+    .day-4, .hour-4, .min-4, .sec-4{
+        font-size: 13px;
+        /* padding: 0; */
+    }
+
+    .day-4{
+        padding-left: 0px;
+    }
+
+    .hour-4{
+        padding-left: 60px;
+    }
+
+    .min-4{
+        padding-left: 45px;
+        padding-right: 10px;
+    }
+
+    .sec-4{
+        padding-right: 0px;
     }
 }
 
 @media only screen and (max-width: 400px){
     .back-4, .overlay-14{
-        height: 150vh;
+        height: 135vh;
     }
 
     .paragraph-4{
@@ -2636,32 +2778,39 @@ video{
 
     #demo4{
         font-size: 50px;
-        transform: translateY(570px);
+        transform: translateY(670px);
     }
 
     .countdown-4{
-        transform: translateY(570px);
+        transform: translateY(670px);
     }
 
     .day-4, .hour-4, .min-4, .sec-4{
-        font-size: 16px;
+        font-size: 13px;
         /* padding: 0; */
     }
 
     .day-4{
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
     .hour-4{
-        padding-left: 45px;
+        padding-left: 60px;
     }
 
     .min-4{
-        padding-left: 40px;
+        padding-left: 45px;
+        padding-right: 10px;
     }
 
     .sec-4{
-        padding-right: 24px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .paragraph-4{
+        margin-top: 50px;
     }
 }
 
@@ -2848,21 +2997,7 @@ video{
 @media only screen and (max-width: 450px){
     
     .back-5, .overlay-15{
-        height: 110vh;
-    }
-
-    #demo5{
-        transform: translateY(570px);
-    }
-
-    .countdown-5{
-        transform: translateY(570px);
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .back-5, .overlay-15{
-        height: 150vh;
+        height: 130vh;
     }
 
     .paragraph-5{
@@ -2871,32 +3006,74 @@ video{
 
     #demo5{
         font-size: 50px;
-        transform: translateY(570px);
+        transform: translateY(620px);
     }
 
     .countdown-5{
-        transform: translateY(570px);
+        transform: translateY(620px);
     }
 
     .day-5, .hour-5, .min-5, .sec-5{
-        font-size: 16px;
+        font-size: 13px;
         /* padding: 0; */
     }
 
     .day-5{
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
     .hour-5{
-        padding-left: 45px;
+        padding-left: 60px;
     }
 
     .min-5{
-        padding-left: 40px;
+        padding-left: 45px;
+        padding-right: 10px;
     }
 
     .sec-5{
-        padding-right: 24px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .back-5, .overlay-15{
+        height: 130vh;
+    }
+
+    .paragraph-5{
+        margin-top: 30px;
+    }
+
+    #demo5{
+        font-size: 50px;
+        transform: translateY(620px);
+    }
+
+    .countdown-5{
+        transform: translateY(620px);
+    }
+
+    .day-5, .hour-5, .min-5, .sec-5{
+        font-size: 13px;
+        /* padding: 0; */
+    }
+
+    .day-5{
+        padding-left: 0px;
+    }
+
+    .hour-5{
+        padding-left: 60px;
+    }
+
+    .min-5{
+        padding-left: 45px;
+        padding-right: 10px;
+    }
+
+    .sec-5{
+        padding-right: 0px;
     }
 }
 
@@ -3123,5 +3300,15 @@ video{
         font-size: 20px;
         transition: 200ms;
         margin-top: 62.5px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    #icon-1{
+        transform: translateY(0);
+    }
+    
+    #icon-2{
+        transform: translateY(-35px);
     }
 }
