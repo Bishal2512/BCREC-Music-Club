@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bishal Chakraborty">
+    <link rel="icon" href="../Music CLub Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Sign.css">
+    <script src="https://kit.fontawesome.com/41df2a9c9a.js" crossorigin="anonymous"></script>
+    <title>BCREC Music Club</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form method="post" id="form">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" name="name" />
+                <input type="email" placeholder="Email" name="email" />
+                <input type="number" placeholder="Phone Number" name="number" />
+                <button name="btn">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Admin Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" id="email" placeholder="Email" />
+                <input type="password" id="password" placeholder="Password" />
+                <a href="#">Forgot your password?</a>
+                <button onclick="auth()">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function auth() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if (email == "84.tanmoy.84@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "nahasalini404@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "nehabhattacharjee31@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "sriparnasona2002@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "ayushoctober3@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "neha12000320022@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "aisha02agarwal@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "ankanmandal2001@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else if (email == "sayantanchatt44@gmail.com" && password == "Executive.BMC@2023-24") {
+                window.location.assign("https://docs.google.com/spreadsheets/d/1lDIM6uec2ostupA4BNKQT55nP3ktaiDWBTLQjCIrbZU/edit#gid=0");
+                alert("Login Successful");
+            }
+            else {
+                alert("Invalid Information");
+            }
+        }
+
+        let url = 'https://script.google.com/macros/s/AKfycbzIOD-PMes6m0nyW5zG7AAqOKW5K1vamr_kKm698zdeIlL-jOpde3mLWJAiGCig8q95Dg/exec';
+        let form = document.querySelector('#form');
+        form.addEventListener("submit", (e) => {
+            e.target.btn.innerHTML = "Signing...";
+            let d = new FormData(form);
+            fetch(url, {
+                method: "POST",
+                body: d
+            }).then((res) => res.text())
+                .then((finalres) => {
+                    e.target.btn.innerHTML = "Sign Up",
+                    console.log(finalres)
+                    alert("Successfully Signed Up");
+                })
+            e.preventDefault();
+        })
+    </script>
+    <script src="Sign.js"></script>
+</body>
+
+</html>
