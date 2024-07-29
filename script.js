@@ -77,6 +77,10 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo1").innerHTML = "EXPIRED";
+    document.getElementById("demo2").innerHTML = "EXPIRED";
+    document.getElementById("demo3").innerHTML = "EXPIRED";
+    document.getElementById("demo4").innerHTML = "EXPIRED";
+    document.getElementById("demo5").innerHTML = "EXPIRED";
   }
 }, 1000);
