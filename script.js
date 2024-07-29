@@ -1,8 +1,8 @@
-var countDownDate1 = new Date("May 18, 2024 10:00:00").getTime();
-var countDownDate2 = new Date("May 18, 2024 10:00:00").getTime();
-var countDownDate3 = new Date("May 19, 2024 13:00:00").getTime();
-var countDownDate4 = new Date("May 19, 2024 10:00:00").getTime();
-var countDownDate5 = new Date("May 18, 2024 13:00:00").getTime();
+var countDownDate1 = new Date("May 18, 2025 10:00:00").getTime();
+var countDownDate2 = new Date("May 18, 2025 10:00:00").getTime();
+var countDownDate3 = new Date("May 19, 2025 13:00:00").getTime();
+var countDownDate4 = new Date("May 19, 2025 10:00:00").getTime();
+var countDownDate5 = new Date("May 18, 2025 13:00:00").getTime();
 
 var x = setInterval(function() {
 
