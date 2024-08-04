@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Open+Sans&display=swap');
 
+
 :root {
     --primary-color: #e50914;
 }
@@ -10,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-1 {
@@ -691,9 +693,10 @@ ul.main-menu{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100%;
+    height: 115vh;
     border-bottom: 5px solid #8d82ce;
     margin-top: -50px;
+    /* margin-bottom: 50px; */
     z-index: 0;
     /* transform: translateY(-25px); */
 }
@@ -704,8 +707,8 @@ ul.main-menu{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 105vh;
-    /* margin-bottom: 200px; */
+    height: 115vh;
+    /* margin-bottom: 50px; */
     position: relative;
 }
 
@@ -727,7 +730,7 @@ ul.main-menu{
     display: flex;
     justify-content: space-around;
     font-family: 'Times New Roman', Times, serif;
-    margin: 20px 80px;
+    margin: 20px 50px;
 }
 
 .box {
@@ -894,7 +897,7 @@ video{
 .heading-4 {
     text-align: center;
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 #member-border{
@@ -947,7 +950,7 @@ video{
     text-align: center;
     font-size: larger;
     padding-top: 5px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 #border {
@@ -958,12 +961,12 @@ video{
     border-top: #b42cdd solid 5px;
     background: -webkit-linear-gradient(rgba(157, 78, 255, 0.4) 30%, rgba(215, 170, 255) 80%);
     background-color: rgb(215, 170, 255);
-    height: 60vh;
+    height: 80vh;
     font-family: 'IBM Plex Sans', sans-serif;
     /* height: 100vh; */
     transform: translateY(-45px);
-    margin-bottom: -65px;
-    z-index: 3;
+    margin-bottom: -110px;
+    z-index: 1;
 }
 
 .heading-5 {
@@ -1138,7 +1141,7 @@ video{
 
 .swiper {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
 }
 
 .swiper-slide {
@@ -1156,8 +1159,8 @@ video{
     border-radius: 50%;
     align-items: left;
     position: absolute;
-    margin-left: -700px;
-    margin-top: 40px;
+    margin-left: -570px;
+    margin-top: 20px;
 }
 
 #slide-head {
@@ -1165,9 +1168,9 @@ video{
     padding: 0;
     text-align: justify;
     position: absolute;
-    margin-right: 100px;
+    margin-right: 200px;
     margin-left: 400px;
-    margin-top: 100px;
+    margin-top: 45px;
 }
 
 .slide-para {
@@ -1177,7 +1180,7 @@ video{
     font-size: 25px;
     text-align: left;
     font-style: italic;
-    margin-top: 250px;
+    margin-top: 240px;
     margin-right: 300px;
     margin-left: 400px;
 }
@@ -1192,7 +1195,7 @@ video{
 
 #p-4 {
     margin-left: 400px;
-    margin-top: 280px;
+    margin-top: 270px;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -1434,7 +1437,7 @@ video{
 }
 
 .heading-6 {
-    margin-top: -200px;
+    margin-top: -220px;
     font-size: 50px;
     margin-left: 40px;
     margin-bottom: 20px;
@@ -1461,7 +1464,7 @@ video{
     height: 350px;
     float: right;
     border-radius: 3%;
-    margin-top: -300px;
+    margin-top: -325px;
     margin-right: 30px;
 }
 
@@ -1674,7 +1677,7 @@ video{
     height: 400px;
     margin-left: 50px;
     border-radius: 3%;
-    margin-top: 100px;
+    margin-top: 35px;
     transition: 200ms;
 }
 
@@ -1689,8 +1692,9 @@ video{
 }
 
 .college {
-    font-size: 25px;
+    font-size: 24px;
     text-align: justify;
+    padding-right: 40px;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -1812,7 +1816,7 @@ video{
     text-align: justify;
     margin-left: 100px;
     margin-right: 210px;
-    transform: translateX(-50px) translateY(-40px);
+    transform: translateX(-50px) translateY(30px);
     background: -webkit-linear-gradient(rgb(255, 212, 222) 30%, rgb(201, 201, 251) 60%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -2141,7 +2145,7 @@ video{
     margin-right: 80px;
     margin-left: 700px;
     font-size: 32px;
-    transform: translateY(-200px);
+    transform: translateY(-220px);
     font-family: 'IBM Plex Sans',sans-serif;
     text-align: justify;
     background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(234, 163, 163));
@@ -2370,7 +2374,7 @@ video{
     margin-right: 700px;
     font-size: 32px;
     font-family: 'IBM Plex Sans',sans-serif;
-    transform: translateY(250px);
+    transform: translateY(330px);
     text-align: justify;
     background: -webkit-linear-gradient(rgb(255, 118, 118), rgb(255, 232, 81));
     background-clip: text;
@@ -2582,14 +2586,14 @@ video{
     background-image: url(./wallpapersden.com_neon-landscape-illustration_3072x1728.jpg);
     background-size: cover;
     background-position: center;
-    height: 150vh;
+    height: 170vh;
 }
 
 .overlay-14{
     background-color: rgba(128, 141, 10, 0.5);
     background-size: cover;
     background-position: center;
-    height: 150vh;
+    height: 170vh;
 }
 
 .art-cave{
@@ -2609,7 +2613,7 @@ video{
     margin-right: 80px;
     margin-left: 700px;
     font-size: 32px;
-    transform: translateY(200px);
+    transform: translateY(300px);
     font-family: 'IBM Plex Sans',sans-serif;
     text-align: justify;
     background: -webkit-linear-gradient(rgb(165, 255, 151), rgb(166, 243, 255));
@@ -2847,7 +2851,7 @@ video{
     margin-left: 80px;
     margin-right: 700px;
     font-size: 32px;
-    transform: translateY(220px);
+    transform: translateY(300px);
     text-align: justify;
     font-family: 'IBM Plex Sans',sans-serif;
     background: -webkit-linear-gradient(rgb(236, 250, 81), rgb(255, 178, 193));
@@ -3104,6 +3108,30 @@ video{
     height: 100px;
     margin-left: 20px;
     margin-top: 50px;
+}
+
+.link{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.un {
+    display: inline-block;
+    padding-bottom: 2px;
+    background-image: linear-gradient(#000 0 0);
+    background-position: 0 100%;
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    transition:
+        background-size 0.3s,
+        background-position 0s 0.3s;
+}
+
+.un:hover {
+    background-position: 100% 100%;
+    background-size: 100% 3px;
+    background-image: linear-gradient(rgb(77, 2, 100) 0 0);
 }
 
 .heading-7 {
