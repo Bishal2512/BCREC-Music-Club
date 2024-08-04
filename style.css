@@ -104,7 +104,7 @@ ul.main-menu{
     .header-1 {
         width: 100%;
         height: 180px;
-        height: 30vh; 
+        /* height: 30vh; */
     }
 
     ul.main-menu{
@@ -137,7 +137,7 @@ ul.main-menu{
     .header-1 {
         width: 100%;
         height: 160px;
-        height: 30vh;
+        /* height: 30vh; */
     }
 
     ul.main-menu{
@@ -170,7 +170,7 @@ ul.main-menu{
     .header-1 {
         width: 100%;
         height: 150px;
-        height: 30vh;
+        /* height: 30vh; */
     }
 
     ul.main-menu{
@@ -1249,7 +1249,7 @@ video{
     #p-4 {
         margin-top: 250px;
     }
-} 
+}
 
 @media only screen and (max-width: 1000px) {
     .slide-para {
@@ -2431,7 +2431,7 @@ video{
         margin: 0;
         padding: 0;
         padding-left: 10px;
-        margin-top: -90px; 
+        /* margin-top: -90px; */
         transform: translateY(340px)
     }
 }
@@ -2661,7 +2661,7 @@ video{
         margin: 0;
         padding: 0;
         padding-left: 10px;
-        margin-top: -90px;
+        /* margin-top: -90px; */
         transform: translateY(340px)
     }
 }
@@ -2906,7 +2906,7 @@ video{
         margin: 0;
         padding: 0;
         padding-left: 10px;
-        margin-top: -90px;
+        /* margin-top: -90px; */
         transform: translateY(450px)
     }
 }
