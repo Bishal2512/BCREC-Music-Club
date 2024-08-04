@@ -100,11 +100,11 @@ ul.main-menu{
     padding-right: 90px;
 }
 
-@media only screen and (max-width: 1500px){
+/* @media only screen and (max-width: 1500px){
     .header-1 {
         width: 100%;
         height: 180px;
-        /* height: 30vh; */
+        height: 30vh; 
     }
 
     ul.main-menu{
@@ -137,7 +137,7 @@ ul.main-menu{
     .header-1 {
         width: 100%;
         height: 160px;
-        /* height: 30vh; */
+        height: 30vh;
     }
 
     ul.main-menu{
@@ -170,7 +170,7 @@ ul.main-menu{
     .header-1 {
         width: 100%;
         height: 150px;
-        /* height: 30vh; */
+        height: 30vh;
     }
 
     ul.main-menu{
@@ -228,7 +228,7 @@ ul.main-menu{
     .social-2 {
         margin-right: -10px;
     }
-}
+} */
 
 @media screen and (max-width: 900px) {
 
@@ -765,7 +765,7 @@ video{
     /* margin-bottom: 200px; */
 }
 
-@media only screen and (max-width: 1150px) {
+/* @media only screen and (max-width: 1150px) {
     .second-content {
         transform: translateY(-11px);
         height: 200vh;
@@ -822,7 +822,7 @@ video{
     .box #para-para-3 {
         transform: translateY(-200px);
     }
-}
+} */
 
 @media only screen and (max-width: 900px) {
     .second-content {
@@ -1022,7 +1022,7 @@ video{
     text-decoration: underline #3e56f2;
 }
 
-@media only screen and (max-width: 1150px) {
+/* @media only screen and (max-width: 1150px) {
     .fourth-content {
         transform: translateY(-65px);
         margin-top: -42px;
@@ -1035,7 +1035,7 @@ video{
         display: flex;
         margin: auto;
     }
-}
+} */
 
 @media only screen and (max-width: 850px) {
     .fourth-content {
@@ -1195,7 +1195,7 @@ video{
     margin-top: 280px;
 }
 
-@media only screen and (max-width: 1150px) {
+/* @media only screen and (max-width: 1150px) {
 
     .fifth-content {
         height: 100vh;
@@ -1249,9 +1249,9 @@ video{
     #p-4 {
         margin-top: 250px;
     }
-}
+} */
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
     .slide-para {
         margin-top: 270px;
     }
@@ -1264,7 +1264,7 @@ video{
     #p-4 {
         margin-top: 270px;
     }
-}
+} */
 
 @media only screen and (max-width: 800px) {
     .slide-para {
@@ -1360,7 +1360,7 @@ video{
     }
 }
 
-@media only screen and (max-width: 1150px) {
+/* @media only screen and (max-width: 1150px) {
 
     .third-content-1,
     .third-content-2 {
@@ -1395,7 +1395,7 @@ video{
         filter: grayscale(0);
     }
 }
-
+ */
 @media only screen and (max-width: 900px) {
 
     .heading-4,
@@ -1465,7 +1465,7 @@ video{
     margin-right: 30px;
 }
 
-@media only screen and (max-width: 1500px) {
+/* @media only screen and (max-width: 1500px) {
     .waves-5 {
         transition: 200ms;
         transform: translateY(-280px);
@@ -1534,7 +1534,7 @@ video{
         margin-right: auto;
         margin-top: 200px;
     }
-}
+} */
 
 @media only screen and (max-width: 800px) {
     .waves-5 {
@@ -1693,7 +1693,7 @@ video{
     text-align: justify;
 }
 
-@media only screen and (max-width: 1150px) {
+/* @media only screen and (max-width: 1150px) {
 
     .map {
         transition: 200ms;
@@ -1722,7 +1722,7 @@ video{
         font-size: 22px;
         padding-left: 10px;
     }
-}
+} */
 
 @media only screen and (max-width: 700px) {
     .map {
@@ -1936,7 +1936,7 @@ video{
     text-align: center;
 }
 
-@media only screen and (max-width: 1500px){
+/* @media only screen and (max-width: 1500px){
     .paragraph-1{
         font-size: 28px;
         margin-bottom: -50px;
@@ -1994,7 +1994,7 @@ video{
     .countdown-1{
         transform: translateY(300px);
     }
-}
+} */
 
 @media only screen and (max-width: 750px){
     .back-1, .overlay-11{
@@ -2150,7 +2150,7 @@ video{
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 1500px){
+/* @media only screen and (max-width: 1500px){
     .paragraph-2{
         font-size: 27px;
         margin-bottom: -50px;
@@ -2162,9 +2162,9 @@ video{
     .countdown-2{
         transform: translateY(356px) translateX(6px);
     }
-}
+} */
 
-@media only screen and (max-width: 1300px){
+/* @media only screen and (max-width: 1300px){
 
     .back-2, .overlay-12{
         height: 160vh;
@@ -2200,9 +2200,9 @@ video{
         margin-top: -90px;
         transform: translateY(540px) translateX(10px);
     }
-}
+} */
 
-@media only screen and (max-width: 1000px){
+/* @media only screen and (max-width: 1000px){
     .back-2, .overlay-12{
         height: 155vh;
     }
@@ -2215,7 +2215,7 @@ video{
         transform: translateY(540px) translateX(5px);
     }
 }
-
+ */
 @media only screen and (max-width:750px) {
 
     .back-2,.overlay-12{
@@ -2378,7 +2378,7 @@ video{
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 1500px){
+/* @media only screen and (max-width: 1500px){
     .paragraph-3{
         font-size: 27px;
         margin-bottom: -50px;
@@ -2391,9 +2391,9 @@ video{
     .countdown-3{
         transform: translateY(795px) translateX(6px);
     }
-}
+} */
 
-@media only screen and (max-width:1300px) {
+/* @media only screen and (max-width:1300px) {
 
     .back-3{
         height: 160vh;
@@ -2431,7 +2431,7 @@ video{
         margin: 0;
         padding: 0;
         padding-left: 10px;
-        /* margin-top: -90px; */
+        margin-top: -90px; 
         transform: translateY(340px)
     }
 }
@@ -2448,7 +2448,7 @@ video{
     .countdown-3{
         transform: translateY(450px) translateX(3px);
     }
-}
+} */
 
 @media only screen and (max-width:750px){
 
@@ -2618,7 +2618,7 @@ video{
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 1500px){
+/* @media only screen and (max-width: 1500px){
     .paragraph-4{
         font-size: 27px;
         margin-top: -50px;
@@ -2661,7 +2661,7 @@ video{
         margin: 0;
         padding: 0;
         padding-left: 10px;
-        /* margin-top: -90px; */
+        margin-top: -90px;
         transform: translateY(340px)
     }
 }
@@ -2682,7 +2682,7 @@ video{
     .countdown-4{
         transform: translateY(450px) translateX(3px);
     }
-}
+} */
 
 @media only screen and (max-width:750px){
 
@@ -2856,7 +2856,7 @@ video{
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 1500px){
+/* @media only screen and (max-width: 1500px){
     .paragraph-5{
         font-size: 27px;
         margin-top: -50px;
@@ -2906,7 +2906,7 @@ video{
         margin: 0;
         padding: 0;
         padding-left: 10px;
-        /* margin-top: -90px; */
+        margin-top: -90px;
         transform: translateY(450px)
     }
 }
@@ -2927,7 +2927,7 @@ video{
     .countdown-5{
         transform: translateY(500px) translateX(1px);
     }
-}
+} */
 
 @media only screen and (max-width: 850px){
     .back-5, .overlay-15{
